@@ -1,0 +1,9 @@
+.idea/
+venv
+media
+__pycache__
+migrations
+.DS_Store
+.env
+envpos
+*.pyc

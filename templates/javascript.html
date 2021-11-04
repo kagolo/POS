@@ -1,0 +1,35 @@
+{% load static %}
+
+<script src="{% static 'addons/js/jquery.min.js' %}"></script>
+<script src="{% static 'addons/js/jquery-ui.min.js' %}"></script>
+<script>
+    $.widget.bridge('uibutton', $.ui.button);
+</script>
+<script src="{% static 'addons/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'addons/js/raphael.min.js' %}"></script>
+<script src="{% static 'addons/js/morris.min.js' %}"></script>
+<script src="{% static 'addons/js/jquery.sparkline.min.js' %}"></script>
+<script src="{% static 'plugins/jvectormap/jquery-jvectormap-1.2.2.min.js' %}"></script>
+<script src="{% static 'plugins/jvectormap/jquery-jvectormap-world-mill-en.js' %}"></script>
+<script src="{% static 'addons/js/jquery.knob.min.js' %}"></script>
+<script src="{% static 'addons/js/moment.min.js' %}"></script>
+<script src="{% static 'addons/js/daterangepicker.js' %}"></script>
+<script src="{% static 'addons/js/bootstrap-datepicker.min.js' %}"></script>
+<script src="{% static 'plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js' %}"></script>
+<script src="{% static 'addons/js/jquery.slimscroll.min.js' %}"></script>
+<script src="{% static 'addons/js/fastclick.js' %}"></script>
+<script src="{% static 'addons/js/select2.full.min.js' %}"></script>
+<script src="{% static 'dist/js/adminlte.min.js' %}"></script>
+<script src="https://use.fontawesome.com/0f05299aba.js"></script>
+<script src="{% static 'dist/js/pages/dashboard.js' %}"></script>
+<script src="{% static 'dist/js/demo.js' %}"></script>
+
+<script>
+    $(function () {
+        $('.select2').select2();
+
+        $(".alert").first().hide().slideDown(500).delay(4000).slideUp(500, function () {
+            $(this).remove();
+        });
+    })
+</script>
