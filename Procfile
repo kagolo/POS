@@ -1,1 +1,1 @@
-web: gunicorn inventory.wsgi --log-file -                                                                                                                 [11:23:00] layersony:storagesite git:(mpesa_api*) $ 
+web: gunicorn inventory.wsgi --log-file - 
