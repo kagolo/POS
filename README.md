@@ -92,3 +92,10 @@ python3 manage.py runserver
 
 ###### If PSQL error raise please follow the command:
 ```pip install psycopg2-binary```
+
+### Test User Creds:
+
+```
+Username = test
+Password = 1q2w3e4r5t6y.
+```
