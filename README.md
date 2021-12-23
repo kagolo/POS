@@ -22,6 +22,13 @@
  - List of sale record
  - Invoice 
 
+### Test User Creds:
+
+```
+Username = test
+Password = 1q2w3e4r5t6y.
+```
+
 ## Setup & dependencies
 
 - Python 3.8.5 and above
@@ -33,12 +40,6 @@ It's also possible to develop on a Windows machine, but I have not documented th
 If you've developed django apps on Windows, you should have little problem getting
 up and running.
 
-### Test User Creds:
-
-```
-Username = test
-Password = 1q2w3e4r5t6y.
-```
 
 ### Create Database
 
