@@ -33,6 +33,12 @@ It's also possible to develop on a Windows machine, but I have not documented th
 If you've developed django apps on Windows, you should have little problem getting
 up and running.
 
+### Test User Creds:
+
+```
+Username = test
+Password = 1q2w3e4r5t6y.
+```
 
 ### Create Database
 
@@ -93,9 +99,3 @@ python3 manage.py runserver
 ###### If PSQL error raise please follow the command:
 ```pip install psycopg2-binary```
 
-### Test User Creds:
-
-```
-Username = test
-Password = 1q2w3e4r5t6y.
-```
